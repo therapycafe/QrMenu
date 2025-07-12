@@ -1,0 +1,751 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menü</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+    <div class="logo-container">
+        <img src="images/therapylogo.png" alt="Therapy Pasta & Cafe Logo" class="logo">
+    </div>
+    <nav id="categories">
+        <div class="category-card" onclick="scrollToCategory('icecek')" style="background-image: url('images/içecekler.jpg')">
+        <span>Soğuk&Sıcak İçecekler</span>
+        </div>
+        <div class="category-card" onclick="scrollToCategory('cheesecake')" style="background-image: url('images/cheesecake.jpeg')">
+        <span>Cheesecake Çeşitleri</span>
+        </div>
+        <div class="category-card" onclick="scrollToCategory('baklava')" style="background-image: url('images/baklava.jpg')">
+        <span>Baklava Çeşitleri</span>
+        </div>
+        <div class="category-card" onclick="scrollToCategory('ekler')" style="background-image: url('images/klasikekler.jpg')">
+        <span>Ekler Çeşitleri</span>
+        </div>
+        <div class="category-card" onclick="scrollToCategory('profiterol')" style="background-image: url('images/profotorol.jpg')">
+        <span>Profiterol Çeşitleri</span>
+        </div>
+        <div class="category-card" onclick="scrollToCategory('kurupasta')" style="background-image: url('images/kurupasta.jpg')">
+        <span>Kuru Pasta Çeşitleri</span>
+        </div>
+        <div class="category-card" onclick="scrollToCategory('borek')" style="background-image: url('images/pogaca.jpg')">
+        <span>Börek & Poğaça</span>
+        </div>
+        <div class="category-card" onclick="scrollToCategory('kahvalti')" style="background-image: url('images/kahvaltılar.jpg')">
+        <span>Kahvaltı Çeşitleri</span>
+        </div>
+    </nav>
+    </header>
+    <main>
+    <section id="icecek" class="category">
+    <h2>İçecekler</h2>
+    <div class="products">
+        <div class="product">
+        <img src="images/içecekler/limonata.jpg" alt="Limonata">
+        <div class="details">
+            <h3>Limonata</h3>
+            <p>Taze limonlarla hazırlanmış ferahlatıcı içecek.</p>
+        </div>
+        <span class="price">50 TL</span>
+        </div>
+        <div class="product">
+        <img src="images/içecekler/karadut.jpg" alt="Karadut">
+        <div class="details">
+            <h3>Karadut</h3>
+            <p>Doğal karadut suyuyla serinletici içim.</p>
+        </div>
+        <span class="price">50 TL</span>
+        </div>
+        <div class="product">
+        <img src="images/içecekler/sadesoda.jpg" alt="Sade Soda">
+        <div class="details">
+            <h3>Sade Soda</h3>
+            <p>Gazlı, sade ve serinletici doğal maden suyu.</p>
+        </div>
+        <span class="price">40 TL</span>
+        </div>
+        <div class="product">
+        <img src="images/içecekler/çamlıcagazoz.jpg" alt="Çamlıca Gazoz">
+        <div class="details">
+            <h3>Çamlıca Gazoz</h3>
+            <p>Nostaljik gazoz lezzetiyle keyifli anlar.</p>
+        </div>
+        <span class="price">40 TL</span>
+        </div>
+        <div class="product">
+        <img src="images/içecekler/Churchill.jpg" alt="Churchill">
+        <div class="details">
+            <h3>Churchill </h3>
+            <p>Soğuk servis edilen klasik Churchill keyfi.</p>
+        </div>
+        <span class="price">70 TL</span>
+        </div>
+        <div class="product">
+        <img src="images/içecekler/cocacola.jpg" alt="Kutu Coca Cola">
+        <div class="details">
+            <h3>Kola Kutu</h3>
+            <p>Soğuk servis edilen klasik kola keyfi.</p>
+        </div>
+        <span class="price">70 TL</span>
+        </div>
+        <div class="product">
+        <img src="images/içecekler/fanta.jpg" alt="Kutu Fanta">
+        <div class="details">
+            <h3>Kutu Fanta</h3>
+            <p>Portakal aromalı gazlı içecek.</p>
+        </div>
+        <span class="price">70 TL</span>
+        </div>
+        <div class="product">
+        <img src="images/içecekler/sogukcay.jpg" alt="Fuse Tea Şeftali">
+        <div class="details">
+            <h3>Fuse Tea Şeftali</h3>
+            <p>Soğuk çay ve şeftali aromasıyla serinlik.</p>
+        </div>
+        <span class="price">60 TL</span>
+        </div>
+        <div class="product">
+        <img src="images/içecekler/sogukcay.jpg" alt="Fuse Tea Limon">
+        <div class="details">
+            <h3>Fuse Tea Limon</h3>
+            <p>Soğuk limonlu çay ferahlatıcı tat.</p>
+        </div>
+        <span class="price">60 TL</span>
+        </div>
+        <div class="product">
+        <img src="images/içecekler/su.jpg" alt="Su">
+        <div class="details">
+            <h3>Su</h3>
+            <p>Doğal kaynak suyu, serinletici ve saf.</p>
+        </div>
+        <span class="price">20 TL</span>
+        </div>
+        <div class="product">
+        <img src="images/içecekler/capyvişne.jpg" alt="Capy Vişne">
+        <div class="details">
+            <h3>Capy Vişne</h3>
+            <p>Ekşi vişne aromalı meyve suyu.</p>
+        </div>
+        <span class="price">30 TL</span>
+        </div>
+        <div class="product">
+        <img src="images/içecekler/capykayısı.jpg" alt="Capy Kayısı">
+        <div class="details">
+            <h3>Capy Kayısı</h3>
+            <p>Kayısı tadıyla serin bir içim.</p>
+        </div>
+        <span class="price">30 TL</span>
+        </div>
+        <div class="product">
+        <img src="images/içecekler/capyşeftali.jpg" alt="Capy Şeftali">
+        <div class="details">
+            <h3>Capy Şeftali</h3>
+            <p>Şeftali lezzetli soğuk meyve suyu.</p>
+        </div>
+        <span class="price">30 TL</span>
+        </div>
+        <div class="product">
+        <img src="images/içecekler/capykarışık.jpg" alt="Capy Karışık">
+        <div class="details">
+            <h3>Capy Karışık</h3>
+            <p>Çeşitli meyvelerden oluşan karışık meyve suyu.</p>
+        </div>
+        <span class="price">30 TL</span>
+        </div>
+    </div>
+    </section>
+    <section id="cheesecake" class="category">
+        <h2>Cheesecake & Pasta</h2>
+        <div class="products">
+        <div class="product">
+            <img src="images/cheesecake-çeşitleri/Frambuazlı.jpg" alt="Frambuazlı Cheesecake">
+            <div class="details">
+            <h3>Frambuazlı Cheesecake</h3>
+            <p>Özel hazırlanmış frambuaz sos,labne peyniri ve burçak bisküvi tabanından oluşmakta</p>
+            </div>
+            <span class="price">175 TL</span>
+        </div>
+        <div class="product">
+            <img src="images/cheesecake-çeşitleri/limonlu.jpg" alt="Limonlu Cheesecake">
+            <div class="details">
+            <h3>Limonlu Cheesecake</h3>
+            <p>Tereyağ, Bisküvi, Limon Sos, Fırınlanmış Cheesecake Peyniri, Doğal Krema</p>
+            </div>
+            <span class="price">175 TL</span>
+        </div>
+        <div class="product">
+            <img src="images/cheesecake-çeşitleri/cikolatali.jpg" alt="Çikolatalı Cheesecake">
+            <div class="details">
+            <h3>Çikolatalı Cheesecake</h3>
+            <p>Tereyağ, Bisküvi, Çikolata Sos, Fırınlanmış Cheesecake Peyniri, Doğal Krema</p>
+            </div>
+            <span class="price">175 TL</span>
+        </div>
+        <div class="product">
+            <img src="images/cheesecake-çeşitleri/yabanmersinli.jpg" alt="Yaban Mersinli Cheesecake">
+            <div class="details">
+            <h3>Yaban Mersinli Cheesecake</h3>
+            <p>Yaban Mersini ve Frambuaz, Labne,Tereyağ, Beyaz Çikolata</p>
+            </div>
+            <span class="price">175 TL</span>
+        </div>
+        <div class="product">
+            <img src="images/cheesecake-çeşitleri/negro.jpg" alt="Negro Oreo  Cheesecake">
+            <div class="details">
+            <h3>Negro Oreo  Cheesecake</h3>
+            <p>Oreo bisküvisi, labne peynir ve burçak bisküvi tabanından oluşmakta.</p>
+            </div>
+            <span class="price">175 TL</span>
+        </div>
+        <div class="product">
+            <img src="images/cheesecake-çeşitleri/fistikli.jpg" alt="Fıstıklı  Cheesecake">
+            <div class="details">
+            <h3>Fıstıklı  Cheesecake</h3>
+            <p>Fıstık , labne peynir ve burçak bisküvi tabanından oluşmakta..</p>
+            </div>
+            <span class="price">175 TL</span>
+        </div>
+        <div class="product">
+            <img src="images/cheesecake-çeşitleri/ormanmeyveli.jpg" alt="Orman Meyveli  Cheesecake">
+            <div class="details">
+            <h3>Orman Meyveli  Cheesecake</h3>
+            <p>Orman meyveleri,labne peynir ve burçak bisküvi tabanından oluşmakta.</p>
+            </div>
+            <span class="price">175 TL</span>
+        </div>
+        <div class="product">
+            <img src="images/pasta-çeşitleri/sansebastian-1.jpg" alt="San Sebastian  Cheesecake">
+            <div class="details">
+            <h3>San Sebastian  Cheesecake</h3>
+            <p>Labne peynir, Krema ve vanilya ile.</p>
+            </div>
+            <span class="price">175 TL</span>
+        </div>
+        <div class="product">
+            <img src="images/pasta-çeşitleri/beyaz-profiterollu.jpg" alt="Beyaz Profiterollü Pasta">
+            <div class="details">
+            <h3>Beyaz Profiterollü Pasta</h3>
+            <p>Özel hazırlanmış frambuaz sos,labne peyniri ve burçak bisküvi tabanından oluşmakta</p>
+            </div>
+            <span class="price">175 TL</span>
+        </div>
+        <div class="product">
+            <img src="images/pasta-çeşitleri/siyah-profiterollu.jpg" alt="Siyah Profiterollü Pasta">
+            <div class="details">
+            <h3>Tereyağ, Bisküvi, Limon Sos, Fırınlanmış Cheesecake Peyniri, Doğal Krema</h3>
+            <p>Taze frambuazlı özel tatlı dokusu.</p>
+            </div>
+            <span class="price">175 TL</span>
+        </div>
+        <div class="product">
+            <img src="images/pasta-çeşitleri/nugat-1b.jpg" alt="Çikolatalı Nugat">
+            <div class="details">
+            <h3>Çikolatalı Nugat</h3>
+            <p>Tereyağ, Bisküvi, Çikolata Sos, Fırınlanmış Cheesecake Peyniri, Doğal Krema</p>
+            </div>
+            <span class="price">175 TL</span>
+        </div>
+        <div class="product">
+            <img src="images/pasta-çeşitleri/fistikli-cikolatali-1b.jpg" alt="Çikolatalı Fıstıklı Pasta">
+            <div class="details">
+            <h3>Çikolatalı Fıstıklı Pasta</h3>
+            <p>Yaban Mersini ve Frambuaz, Labne,Tereyağ, Beyaz Çikolata</p>
+            </div>
+            <span class="price">175 TL</span>
+        </div>
+        <div class="product">
+            <img src="images/pasta-çeşitleri/mozaik-pasta.jpg" alt="Klasik Mozaik Pasta">
+            <div class="details">
+            <h3>Klasik Mozaik Pasta</h3>
+            <p>Petibör bisküvi ve çikolata karışımından oluşmakta.</p>
+            </div>
+            <span class="price">175 TL</span>
+        </div>
+        <div class="product">
+            <img src="images/pasta-çeşitleri/karaorman-meyveli.jpg" alt="Kara Orman Meyveli Pasta">
+            <div class="details">
+            <h3>Kara Orman Meyveli Pasta</h3>
+            <p>Dışı çikolata içinde vişne bulunmakta.</p>
+            </div>
+            <span class="price">175 TL</span>
+        </div>
+        <div class="product">
+            <img src="images/pasta-çeşitleri/ormanmeyveli-1.jpg" alt="Orman Meyveli  Pasta">
+            <div class="details">
+            <h3>Orman Meyveli  Pasta</h3>
+            <p>Beyaz krema ve beyaz çikolatadan oluşmakta.Üzerinde de frambuaz taneleri mevcuttur.</p>
+            </div>
+            <span class="price">175 TL</span>
+        </div>
+        <div class="product">
+            <img src="images/pasta-çeşitleri/fistiksoleni.jpg" alt="Fıstık Şöleni Pasta">
+            <div class="details">
+            <h3>Fıstık Şöleni Pasta</h3>
+            <p>İçinde tane fıstık dışında ise pirinç fıstık parçacıklarıyla süslenmiş bir üründür.</p>
+            </div>
+            <span class="price">175 TL</span>
+        </div>
+        <div class="product">
+            <img src="images/pasta-çeşitleri/krokanli.jpg" alt="Krokanlı Fıstıklı Pasta">
+            <div class="details">
+            <h3>Krokanlı Fıstıklı Pasta</h3>
+            <p>Fıstık,ceviz ve krokan çikolata karışımından oluşmakta.</p>
+            </div>
+            <span class="price">175 TL</span>
+        </div>
+        <div class="product">
+            <img src="images/pasta-çeşitleri/cikolatasoleni.jpg" alt="Çikolata Şöleni">
+            <div class="details">
+            <h3>Krokanlı Fıstıklı Pasta</h3>
+            <p>Bol çikolata ve özel kek tatabanı ile üretilmiş üründür</p>
+            </div>
+            <span class="price">175 TL</span>
+        </div>
+        <div class="product">
+            <img src="images/pasta-çeşitleri/muzlucikolatali.jpg" alt="Muzlu Çikolatalı Pasta">
+            <div class="details">
+            <h3>Muzlu Çikolatalı Pasta</h3>
+            <p>Muz aroması ve çikolatadan oluşmakta.</p>
+            </div>
+            <span class="price">175 TL</span>
+        </div>
+        <div class="product">
+            <img src="images/pasta-çeşitleri/redvelvet-1.jpg" alt="Red Velvet">
+            <div class="details">
+            <h3>Red Velvet</h3>
+            <p>Beyaz Çikolata ve kırmızı özel kek.</p>
+            </div>
+            <span class="price">175 TL</span>
+        </div>
+        <div class="product">
+            <img src="images/pasta-çeşitleri/bella-beyaz.jpg" alt="Bella Beyaz Çikolatalı Pasta">
+            <div class="details">
+            <h3>Bella Beyaz Çikolatalı Pasta</h3>
+            <p>Beyaz çikolata ve frambuazdan oluşmakta.</p>
+            </div>
+            <span class="price">175 TL</span>
+        </div>
+                <div class="product">
+            <img src="images/pasta-çeşitleri/bella-siyah.jpg" alt="Bella Siyah Çikolatalı Pasta">
+            <div class="details">
+            <h3>Bella Siyah Çikolatalı Pasta</h3>
+            <p>Siyah çikolata ve frambuazdan oluşmakta.</p>
+            </div>
+            <span class="price">175 TL</span>
+        </div>
+                <div class="product">
+            <img src="images/pasta-çeşitleri/latte-mono.jpg" alt="Latte Mono Pasta">
+            <div class="details">
+            <h3>Latte Mono Pasta</h3>
+            <p>Latte sos (kahve sosu) bulunmakta.</p>
+            </div>
+            <span class="price">175 TL</span>
+        </div>
+                <div class="product">
+            <img src="images/pasta-çeşitleri/mozaik-pasta.jpg" alt="Beyaz Profityerollü Mono Pasta">
+            <div class="details">
+            <h3>Beyaz Profityerollü Mono Pasta</h3>
+            <p>Beyaz çikolata ve kenarları çikolata kaplıdır.</p>
+            </div>
+            <span class="price">175 TL</span>
+        </div>
+                <div class="product">
+            <img src="images/pasta-çeşitleri/siyah-profiterollu-mono.jpg" alt="Siyah Profiterollü Mono Pasta">
+            <div class="details">
+            <h3>Siyah Profiterollü Mono Pasta</h3>
+            <p>Siyah çikolata ve kenarları çikolata kaplıdır.</p>
+            </div>
+            <span class="price">175 TL</span>
+        </div>
+                <div class="product">
+            <img src="images/pasta-çeşitleri/n-snickers-mono.jpg" alt="N’Snickers">
+            <div class="details">
+            <h3>N’Snickers</h3>
+            <p>Karamelli kavrulmuş yer fıstığı, portakal aroması ile.</p>
+            </div>
+            <span class="price">175 TL</span>
+        </div>
+                <div class="product">
+            <img src="images/pasta-çeşitleri/n-askim-mono.jpg" alt="N’Aşkım">
+            <div class="details">
+            <h3>N’Aşkım</h3>
+            <p>Damla drop çikolata ve hindistan cevizi eşliğinde.</p>
+            </div>
+            <span class="price">175 TL</span>
+        </div>
+        <div class="product">
+            <img src="images/pasta-çeşitleri/havuclu.jpg" alt="Havuçlu Kek">
+            <div class="details">
+            <h3>Havuçlu Kek</h3>
+            <p>Havuç ve ceviz karışımından oluşmakta.</p>
+            </div>
+            <span class="price">175 TL</span>
+        </div>
+        <div class="product">
+            <img src="images/pasta-çeşitleri/brownie.jpg" alt="Browni">
+            <div class="details">
+            <h3>Browni</h3>
+            <p>Çikolata ve kek karışımından oluşmakta.</p>
+            </div>
+            <span class="price">175 TL</span>
+        </div>
+        <div class="product">
+            <img src="images/pasta-çeşitleri/tiramisu-1-1.jpg" alt="Tiramisu">
+            <div class="details">
+            <h3>Tiramisu</h3>
+            <p>Krema,özel tramisu sosu,ve kahve tozundan oluşmakta.</p>
+            </div>
+            <span class="price">175 TL</span>
+        </div>
+                <div class="product">
+            <img src="images/pasta-çeşitleri/karamelli-trilece.jpg" alt="Karamelli Trileçe">
+            <div class="details">
+            <h3>Karamelli Trileçe</h3>
+            <p>Özel formül ile hazırlanmış kek ve %70 keçi sütü ile beraber hazırlanmış süt kullanılmakta.</p>
+            </div>
+            <span class="price">175 TL</span>
+        </div>
+                <div class="product">
+            <img src="images/pasta-çeşitleri/frambuazli-trilece.jpg" alt="Frambuazlı Trileçe">
+            <div class="details">
+            <h3>Frambuazlı Trileçe</h3>
+            <p>Tereyağ, Bisküvi, Limon Sos, Fırınlanmış Cheesecake Peyniri, Doğal Krema</p>
+            </div>
+            <span class="price">175 TL</span>
+        </div>
+        </div>
+    </section>
+    <section id="baklava" class="category">
+  <h2>Baklava & Kadayıf</h2>
+  <div class="products">
+    <div class="product">
+      <img src="images/baklavalar/fistiklihavucdilimbaklava.jpg" alt="Havuç Dilim Baklava">
+      <div class="details">
+        <h3>Havuç Dilim Baklava</h3>
+        <p>İri dilimli, bol fıstıklı klasik baklava.</p>
+      </div>
+      <span class="price">850 TL / Kg</span>
+    </div>
+    <div class="product">
+      <img src="images/baklavalar/saraysarması.jpg" alt="Saray Sarması">
+      <div class="details">
+        <h3>Saray Sarması Baklava</h3>
+        <p>İnce sarım, yoğun fıstıklı özel sarma tatlısı.</p>
+      </div>
+      <span class="price">750 TL / Kg</span>
+    </div>
+    <div class="product">
+      <img src="images/baklavalar/midye.jpg" alt="Midye Baklava">
+      <div class="details">
+        <h3>Midye Baklava</h3>
+        <p>Görünümüyle göz dolduran, fıstıklı midye tatlısı.</p>
+      </div>
+      <span class="price">850 TL / Kg</span>
+    </div>
+    <div class="product">
+      <img src="images/baklavalar/burmakadayıf.jpg" alt="Burma Kadayıf">
+      <div class="details">
+        <h3>Burma Kadayıf</h3>
+        <p>Tel kadayıfla sarılmış, çıtır çıtır fıstıklı tat.</p>
+      </div>
+      <span class="price">750 TL / Kg</span>
+    </div>
+    <div class="product">
+      <img src="images/baklavalar/kadayııf.jpg" alt="Fıstıklı Kadayıf">
+      <div class="details">
+        <h3>Fıstıklı Kadayıf</h3>
+        <p>Yeşil fıstıkla bezenmiş geleneksel kadayıf.</p>
+      </div>
+      <span class="price">800 TL / Kg</span>
+    </div>
+    <div class="product">
+      <img src="images/baklavalar/kurubaklava.jpg" alt="Kuru Baklava">
+      <div class="details">
+        <h3>Kuru Baklava</h3>
+        <p>Daha az şerbetli, hafif ve gevrek baklava.</p>
+      </div>
+      <span class="price">850 TL / Kg</span>
+    </div>
+    <div class="product">
+      <img src="images/baklavalar/fistikli-baklava.jpg" alt="Fıstıklı Baklava">
+      <div class="details">
+        <h3>Fıstıklı Baklava</h3>
+        <p>Kat kat hamur arasında bolca Antep fıstığı.</p>
+      </div>
+      <span class="price">850 TL / Kg</span>
+    </div>
+    <div class="product">
+      <img src="images/baklavalar/evbaklavası.jpg" alt="Tereyağlı Özel Ev Baklavası">
+      <div class="details">
+        <h3>Tereyağlı Özel Ev Baklavası</h3>
+        <p>El açması yufkayla hazırlanan ev yapımı baklava.</p>
+      </div>
+      <span class="price">650 TL / Kg</span>
+    </div>
+    <div class="product">
+      <img src="images/baklavalar/cevizli_baklava.jpg" alt="Cevizli Baklava">
+      <div class="details">
+        <h3>Cevizli Baklava</h3>
+        <p>Bol cevizli, geleneksel tatlı severlere özel.</p>
+      </div>
+      <span class="price">650 TL / Kg</span>
+    </div>
+    <div class="product">
+      <img src="images/baklavalar/sogukbaklava.jpg" alt="Soğuk Baklava">
+      <div class="details">
+        <h3>Soğuk Baklava</h3>
+        <p>Sütlü ve serin dokusuyla farklı bir tatlı deneyimi.</p>
+      </div>
+      <span class="price">850 TL / Kg</span>
+    </div>
+    <div class="product">
+      <img src="images/baklavalar/kadayıf.jpg" alt="Soğuk Fıstıklı Kadayıf">
+      <div class="details">
+        <h3>Soğuk Fıstıklı Kadayıf</h3>
+        <p>Sütle soğutulmuş, fıstıklı taptaze kadayıf.</p>
+      </div>
+      <span class="price">800 TL / Kg</span>
+    </div>
+  </div>
+    </section>
+    <section id="ekler" class="category">
+    <h2>Ekler Çeşitleri</h2>
+    <div class="products">
+        <div class="product">
+        <img src="images/eklerler/eklertane.jpg" alt="Ekler (Tane)">
+        <div class="details">
+            <h3>Ekler (Tane)</h3>
+            <p>Tek porsiyonluk klasik çikolatalı ekler.</p>
+        </div>
+        <span class="price">30 TL</span>
+        </div>
+        <div class="product">
+        <img src="images/eklerler/eklerkg.jpg" alt="Ekler (Kg)">
+        <div class="details">
+            <h3>Ekler (Kg)</h3>
+            <p>Çeşit çeşit ekler karışımı, toplu alım için ideal.</p>
+        </div>
+        <span class="price">580 TL</span>
+        </div>
+    </div>
+    </section>
+    <section id="profiterol" class="category">
+    <h2>Profiterol</h2>
+    <div class="products">
+        <div class="product">
+        <img src="images/eklerler/profiterolküçük.jpg" alt="Profiterol Tatlısı">
+        <div class="details">
+            <h3>Profiterol Tatlısı</h3>
+            <p>Bol kremalı, çikolata soslu büyük porsiyon klasik profiterol.</p>
+        </div>
+        <span class="price">290 TL</span>
+        </div>
+        <div class="product">
+        <img src="images/eklerler/profiterolporsiyon.jpg" alt="Profiterol Tatlısı (Porsiyon)">
+        <div class="details">
+            <h3>Profiterol Tatlısı (Porsiyon)</h3>
+            <p>Daha hafif porsiyon isteyenler için özel küçük servis.</p>
+        </div>
+        <span class="price">150 TL</span>
+        </div>
+    </div>
+    </section>
+    <section id="kurupasta" class="category">
+    <h2>Kuru Pasta</h2>
+    <div class="products">
+        <div class="product">
+        <img src="images/eklerler/Tatli-Kuru-Pastalar.jpg" alt="Karışık Kuru Pasta (20 Çeşit)">
+        <div class="details">
+            <h3>Karışık Kuru Pasta (20 Çeşit)</h3>
+            <p>Tatlı ve tuzlu karışık, taptaze 20 çeşit kuru pasta bir arada.</p>
+        </div>
+        <span class="price">Porsiyon 160 TL - Kg 650 TL</span>
+        </div>
+        <div class="product">
+        <img src="images/eklerler/tuzlu-kuru-pasta-rize.jpg" alt="Karışık Tuzlu Kuru Pasta (10 Çeşit)">
+        <div class="details">
+            <h3>Karışık Tuzlu Kuru Pasta (10 Çeşit)</h3>
+            <p>Kıyır kıyır tuzlu çeşitlerden oluşan enfes atıştırmalıklar.</p>
+        </div>
+        <span class="price">Porsiyon 160 TL - Kg 650 TL</span>
+        </div>
+    </div>
+    </section>
+    <section id="borek" class="category">
+    <h2>Börek & Poğaça</h2>
+    <div class="products">
+        <div class="product">
+        <img src="images/börekler/ıspanaklı.jpg" alt="Ispanaklı Dolama Böreği">
+        <div class="details">
+            <h3>Ispanaklı Dolama Böreği</h3>
+            <p>Tazecik ıspanakla hazırlanan el açması börek.</p>
+        </div>
+        <span class="price">Porsiyon 100 TL- Kg 450 TL</span>
+        </div>
+        <div class="product">
+        <img src="images/börekler/suboregi.jpg" alt="Tereyağlı Su Böreği">
+        <div class="details">
+            <h3>Tereyağlı Su Böreği</h3>
+            <p>Kat kat açılmış, bol tereyağlı klasik su böreği.</p>
+        </div>
+        <span class="price">Porsiyon 125 TL- Kg 500 TL</span>
+        </div>
+        <div class="product">
+        <img src="images/börekler/adana.jpg" alt="Adana Böreği Kaşarlı">
+        <div class="details">
+            <h3>Adana Böreği Kaşarlı</h3>
+            <p>Dışı çıtır, içi bol kaşarlı Adana usulü börek.</p>
+        </div>
+        <span class="price">Porsiyon 125 TL- Kg 500 TL</span>
+        </div>
+        <div class="product">
+        <img src="images/börekler/kut.jpg" alt="Sade Küt Böreği Dilimi">
+        <div class="details">
+            <h3>Sade Küt Böreği Dilimi</h3>
+            <p>Yağlı fırın küt böreği, sade ve doyurucu.</p>
+        </div>
+        <span class="price">Dilimi 15 TL</span>
+        </div>
+        <div class="product">
+        <img src="images/börekler/simit.jpg" alt="Taş Fırın Simit">
+        <div class="details">
+            <h3>Taş Fırın Simit</h3>
+            <p>Geleneksel taş fırında pişmiş çıtır susamlı simit.</p>
+        </div>
+        <span class="price">20 TL</span>
+        </div>
+        <div class="product">
+        <img src="images/börekler/sade-pogaca.jpg" alt="Sade Poğaça">
+        <div class="details">
+            <h3>Sade Poğaça</h3>
+            <p>Yumuşacık klasik sade poğaça.</p>
+        </div>
+        <span class="price">20 TL</span>
+        </div>
+        <div class="product">
+        <img src="images/börekler/kaşarlıp.jpg" alt="Kaşarlı Poğaça">
+        <div class="details">
+            <h3>Kaşarlı Poğaça</h3>
+            <p>İçi kaşar dolu, fırından yeni çıkmış poğaça.</p>
+        </div>
+        <span class="price">20 TL</span>
+        </div>
+        <div class="product">
+        <img src="images/börekler/zeytinli.jpg" alt="Zeytinli Poğaça">
+        <div class="details">
+            <h3>Zeytinli Poğaça</h3>
+            <p>Zeytin severlere özel enfes lezzet.</p>
+        </div>
+        <span class="price">20 TL</span>
+        </div>
+        <div class="product">
+        <img src="images/börekler/patatestlip.jpg" alt="Patatesli Poğaça">
+        <div class="details">
+            <h3>Patatesli Poğaça</h3>
+            <p>Baharatlı patates dolgulu, yumuşacık poğaça.</p>
+        </div>
+        <span class="price">20 TL</span>
+        </div>
+        <div class="product">
+        <img src="images/börekler/çikolatalıaçma.jpg" alt="Çikolatalı Açma">
+        <div class="details">
+            <h3>Çikolatalı Açma</h3>
+            <p>İçinden çikolata akan yumuşak açma.</p>
+        </div>
+        <span class="price">25 TL</span>
+        </div>
+        <div class="product">
+        <img src="images/börekler/sade.jpg" alt="Sade Açma">
+        <div class="details">
+            <h3>Sade Açma</h3>
+            <p>Tereyağlı sade klasik açma.</p>
+        </div>
+        <span class="price">25 TL</span>
+        </div>
+        <div class="product">
+        <img src="images/börekler/zeytinliaçma.jpg" alt="Zeytinli Açma">
+        <div class="details">
+            <h3>Zeytinli Açma</h3>
+            <p>Zeytin aromalı özel hamur açma.</p>
+        </div>
+        <span class="price">25 TL</span>
+        </div>
+        <div class="product">
+        <img src="images/börekler/patatesliaçma.jpg" alt="Patatesli Açma">
+        <div class="details">
+            <h3>Patatesli Açma</h3>
+            <p>İçinde patates dolgulu, fırından sıcak çıkan açma.</p>
+        </div>
+        <span class="price">25 TL</span>
+        </div>
+        <div class="product">
+        <img src="images/börekler/kaşarlıaçma.jpg" alt="Kaşarlı Açma">
+        <div class="details">
+            <h3>Kaşarlı Açma</h3>
+            <p>İçi kaşar dolu, yumuşacık açma keyfi.</p>
+        </div>
+        <span class="price">25 TL</span>
+        </div>
+    </div>
+    </section>
+    <section id="kahvalti" class="category">
+    <h2>Kahvaltı</h2>
+    <div class="products">
+        <div class="product">
+        <img src="images/kahvaltılar/tekkahvaltı.jpg" alt="Tek Kişilik Kahvaltı Tabağı">
+        <div class="details">
+            <h3>Tek Kişilik Kahvaltı Tabağı</h3>
+            <p>Ezme, peynir, zeytin, yumurta, reçel ve sıcak ekmekle klasik kahvaltı.</p>
+        </div>
+        <span class="price">250 TL</span>
+        </div>
+        <div class="product">
+        <img src="images/kahvaltılar/serpmekahvaltı.jpg" alt="Serpme Kahvaltı">
+        <div class="details">
+            <h3>Serpme Kahvaltı</h3>
+            <p>Zengin içerikli, iki kişilik bol çeşitli serpme kahvaltı keyfi.</p>
+        </div>
+        <span class="price">450 TL</span>
+        </div>
+        <div class="product">
+        <img src="images/kahvaltılar/sahandayumurta.jpg" alt="Sahanda Yumurta">
+        <div class="details">
+            <h3>Sahanda Yumurta</h3>
+            <p>Tereyağında klasik sahanda yumurta.</p>
+        </div>
+        <span class="price">100 TL</span>
+        </div>
+        <div class="product">
+        <img src="images/kahvaltılar/kavurmali_yumurta.jpg" alt="Sahanda Kavurmalı Yumurta">
+        <div class="details">
+            <h3>Sahanda Kavurmalı Yumurta</h3>
+            <p>Yumuşak kavurma eşliğinde protein dolu lezzet.</p>
+        </div>
+        <span class="price">200 TL</span>
+        </div>
+        <div class="product">
+        <img src="images/kahvaltılar/sucuklu.jpg" alt="Sahanda Sucuklu Yumurta">
+        <div class="details">
+            <h3>Sahanda Sucuklu Yumurta</h3>
+            <p>Baharatlı sucuklarla hazırlanan geleneksel tat.</p>
+        </div>
+        <span class="price">150 TL</span>
+        </div>
+        <div class="product">
+        <img src="images/kahvaltılar/menemen.jpg" alt="Menemen">
+        <div class="details">
+            <h3>Menemen</h3>
+            <p>Domates, biber ve yumurtanın mükemmel uyumu.</p>
+        </div>
+        <span class="price">150 TL</span>
+        </div>
+    </div>
+    </section>
+
+    </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
